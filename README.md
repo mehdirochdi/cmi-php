@@ -1,5 +1,7 @@
 # CMI PHP Payment bindings
 
+![CMI Logo](./logo-cmi-open.png)
+
 CMI PHP PAYMENT is an open source **PHP payment handling** library. it provides an easier way to communicate with CMI PAYMENT PLATEFORM **[cmi.co.ma](https://www.cmi.co.ma/fr/solutions-paiement-carte-paiement-ligne/ecommerce)** in morocco.
 
 The class is written OOP to make easier to communicate and understand how CMI work.
