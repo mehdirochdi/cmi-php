@@ -1,5 +1,7 @@
 # CMI PHP Payment bindings
 
+![CMI Logo](./logo-cmi-open.png)
+
 CMI PHP PAYMENT is an open source **PHP payment handling** library. it provides an easier way to communicate with CMI PAYMENT PLATEFORM **[cmi.co.ma](https://www.cmi.co.ma/fr/solutions-paiement-carte-paiement-ligne/ecommerce)** in morocco.
 
 The class is written OOP to make easier to communicate and understand how CMI work.
@@ -10,7 +12,7 @@ NB: The small library follows the FIG standard **PSR-4** .
 
 cmi-php requires the following components to work correctly
 
-- PHP>=8.1
+- PHP >= 8.1
 - [cUrl](https://www.php.net/manual/en/book.curl.php) Extension
 - [mbstring](https://www.php.net/manual/en/book.mbstring.php) Extension
 
@@ -68,7 +70,7 @@ $client = new Mehdirochdi\CMI\CmiClient([
 $client->redirect_post(); // CREATE INPUTS HIDDEN, GENERATE A VALID HASH AND MAKE REDIRECT POST TO CMI
 ?>
 ```
-![Payment page](https://osmentalent.com/payment-page.png)
+![Payment page](./cmi-payment-page.jpg)
 
 
 ## Basic test card numbers
@@ -83,7 +85,7 @@ The following card information try to tests local payments such as Strong Custom
 
 Branch : `MasterCard`, PAN: `5191630100004896`, Authentication code: `123` Expired date: `make any date` CVC: `000`
 
-![Payment page](https://osmentalent.com/3dsecure.png)
+![Payment page](./3dsecure-logo-min.png)
 
 ## Optional Params Example
 ```php title="example/process.php"
